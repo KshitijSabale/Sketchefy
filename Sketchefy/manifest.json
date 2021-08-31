@@ -3,7 +3,7 @@
     "name": "Sketchefy",
     "version": "1.0",
 
-    "description": "Understand Leetcode question by drawing it on the board",
+    "description": "Sketchboard for all websites in the devtools panel .",
     "action": {
       "default_icon": {             
         "16": "icon16.png",
@@ -14,7 +14,8 @@
     },
     "permissions": [
       "activeTab",
-      "scripting"
+      "scripting",
+      "storage"
     ],
     "devtools_page": "devtools.html",
     "content_security_policy": {
@@ -23,5 +24,5 @@
     "background": {
       "service_worker": "background-wrapper.js"
     },
-    "host_permissions":["https://leetcode.com/problems/*"]
+    "host_permissions":["https://sketchpad.pro/advanced.html/*"]
   }
