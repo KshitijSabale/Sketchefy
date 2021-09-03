@@ -7,7 +7,7 @@ getroom = () => {
             console.log(roompass);
         }
         );
-    }, 2000);
+    }, 4000);
 }
 
 call = () => {
@@ -22,4 +22,4 @@ call = () => {
 
 setTimeout(() => {
     call();
-}, 2000);
+}, 4000);

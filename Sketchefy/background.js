@@ -36,7 +36,7 @@ closee = ()=>{
 close = ()=>{
     setTimeout(() => {
         closee();
-    },15000 );
+    },11000 );
 }
 
 
