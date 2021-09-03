@@ -9,3 +9,10 @@ chrome.devtools.panels.create("Sketchefy",
             document.body.innerHTML = result.iframe;
         });
     });
+
+    // let iframe = document.createElement('iframe'); 
+    // iframe.style.height = "100%";
+    // iframe.style.width = "100%";
+    // iframe.title = "WhiteBoard";
+    // iframe.src = chrome.runtime.getURL("https://www.tutorialspoint.com/whiteboard.htm");
+    // document.body.appendChild(iframe);
